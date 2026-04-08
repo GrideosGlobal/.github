@@ -1,28 +1,23 @@
-# Grideōs Global Corp.
+# Grideos Global Corp.
 
-**Spatial intelligence. Zero-trust cybersecurity. Built in Calgary.**
+The verification layer for the agent internet. Built in Calgary.
 
-We build biological trust infrastructure for the internet and the physical world. Two product layers. Two patents pending.
+## What We Build
 
-## Ironwall | Cybersecurity
+**Ironwall** — A zero-trust verification platform for AI agents and human users. Hardware-Bound Cryptographic Attestation via WebAuthn/FIDO2. Sub-10ms Zero-Knowledge proof verification at the edge. Rust/WASM on Cloudflare Workers.
 
-Biological verification at the edge. Kinematic trajectory analysis detects the presence of a living human before authentication, before any data is transmitted. Rust-compiled WebAssembly on Cloudflare Workers. Seven components. Zero PII retention.
+**Grideos Active Spatial Nodes** — Patent-pending multi-directional laser emitter system for GPS-denied positioning, spatial awareness, and infrastructure automation.
 
-[Live Dashboard](https://sim.grideos.com/dashboard) · [Simulations](https://sim.grideos.com/sim)
+## Open Repos
 
-## Grideōs | Active Spatial Nodes
+| Repo | What It Is |
+|------|-----------|
+| [zk-circuit-challenge](https://github.com/GrideosGlobal/zk-circuit-challenge) | Open challenge: review our ZK verification architecture and tell us what you'd break. |
+| [ironwall-edge-bench](https://github.com/GrideosGlobal/ironwall-edge-bench) | Benchmarking harness for Rust/WASM edge compute latency on Cloudflare Workers. |
+| [ironwall-verifier](https://github.com/GrideosGlobal/ironwall-verifier) | Groth16 ZK-SNARK verification module. `#![no_std]` Rust → WASM. Live on Cloudflare Workers. |
 
-Patent-pending ceiling-mounted laser emitter systems for real-time spatial awareness. 488nm cyan laser, dual LiDAR/ToF at 20Hz, sub-10ms safety response. Parking enforcement, construction logistics, airport terminals.
+## We're Hiring
 
-[grideos.com](https://grideos.com)
+**Citadel Architect** — Distributed systems engineer with ZK proof experience. You'll own the verification layer for a threat intelligence network operating on zero-knowledge proofs.
 
-## Open Research
-
-- [**ZK Circuit Challenge**](https://github.com/GrideōsGlobal/zk-circuit-challenge): Anonymous attack signature correlation using Poseidon and zero-knowledge proofs
-- [**Kinematic Signal Research**](https://github.com/GrideōsGlobal/kinematic-signal-research): Multi-signal behavioral fusion for biological human verification
-- [**Edge Compute Benchmarks**](https://github.com/GrideōsGlobal/ironwall-edge-bench): Rust/WASM performance on Cloudflare Workers
-- [**Simulation Docs**](https://github.com/GrideōsGlobal/grideos-sim-docs): 12 live interactive demonstrations
-
----
-
-Calgary, Alberta, Canada · [grideos.com](https://grideos.com) · kareem@grideos.com
+Start here: review the [zk-circuit-challenge](https://github.com/GrideosGlobal/zk-circuit-challenge) and open an issue with your analysis. That's the interview.
